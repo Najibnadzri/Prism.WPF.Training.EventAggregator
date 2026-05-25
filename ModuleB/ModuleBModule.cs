@@ -21,5 +21,6 @@ namespace ModuleB
         /* this is testing for the github*/
 
         public void RegisterTypes(IContainerProvider containerProvider) { }
+        /*this is for testing purpose*/
     }
 }
