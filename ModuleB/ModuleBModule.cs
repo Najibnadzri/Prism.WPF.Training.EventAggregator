@@ -13,9 +13,13 @@ namespace ModuleB
             regionManager.RegisterViewWithRegion("RightRegion", typeof(MessageList));
         }
 
-        public void RegisterTypes(IContainerRegistry containerRegistry)
-        {
+        /* public void RegisterTypes(IContainerRegistry containerRegistry)
+         {
 
-        }
+         }*/
+
+        /* this is testing for the github*/
+
+        public void RegisterTypes(IContainerProvider containerProvider) { }
     }
 }
